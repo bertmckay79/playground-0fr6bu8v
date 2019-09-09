@@ -5,10 +5,6 @@ This Java template lets you get started quickly with a simple one-page playgroun
 ```java runnable
 import java.util.*;
 
-// Tic Tac Toe
-
-public class TicTacToe {
-
 public static void main(String args[]) {
 	Scanner in = new Scanner(System.in);
 	String[][] board = {{" ", " ", " "}, {" ", " ", " "}, {" ", " ", " "}};
@@ -109,7 +105,6 @@ public static void printBoard(String[][] board) {
 	
 public static void drawSeperator() {
 	System.out.println("-+-+-");
-}
 }
 ```
 
